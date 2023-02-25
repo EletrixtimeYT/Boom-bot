@@ -54,8 +54,8 @@ async def embed(ctx):
   
 
 #random guild id ne sert que a faire fonctioner sur 1 serv
-@slash.slash(name="nombre_aleatoire",description="choisis un nombre aleatoire",options = [ 
-create_option(name="tricher",description="Donne toujour le meme nombre",option_type = 3,required = True,choices=[
+@slash.slash(name="nombre_aleatoire",description="choisis un nombre aléatoire",options = [ 
+create_option(name="tricher",description="Donne toujour le même nombre",option_type = 3,required = True,choices=[
   create_choice(name = "Oui",value="y"),
   create_choice(name="Non", value="n")
 ]),
